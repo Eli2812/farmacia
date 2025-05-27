@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\SubcategoriaController;
+use App\Http\Controllers\CompraController;
 
 Route::post('/login', [AuthController::class, 'login']);
 
@@ -24,6 +25,7 @@ Route::apiResource('categorias', CategoriaController::class);
 Route::apiResource('productos', ProductoController::class);
 Route::apiResource('proveedors', ProveedorController::class);
 Route::apiResource('subcategorias', SubcategoriaController::class);
+Route::apiResource('compras', CompraController::class);
 
 <router-link to="/contacto">Contacto</router-link>
 import Proveedores from '@/components/Proveedores.vue'
