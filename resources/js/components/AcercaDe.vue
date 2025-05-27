@@ -32,6 +32,3 @@ const routes = [
 ]
 // No se requiere lógica adicional para esta vista estática
 </script>
-
-<!-- Ejemplo de enlace en tu menú -->
-<router-link to="/acerca-de">Acerca de</router-link>
